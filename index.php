@@ -48,6 +48,10 @@ if(isset($_POST['form-captcha-submit'])) {
     <title>ReCAPTCHA</title>
 
     <style>
+        body{
+            overflow-x: hidden;
+        }
+
         div.fake-login{
             display: flex;
             align-items: center;
